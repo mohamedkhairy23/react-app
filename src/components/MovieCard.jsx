@@ -41,7 +41,7 @@ const MovieCard = ({ Movie }) => {
       <div className="flex justify-between">
         <Link to={`/movieDetails/${Movie.id}`}>
           <Button className="w-full">
-            Read more
+            Show more
             <svg
               className="-mr-1 ml-2 h-4 w-4"
               fill="currentColor"
